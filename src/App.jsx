@@ -26,7 +26,7 @@ function App() {
     }, []);
 
     return (
-        <ThemeProvider> {/* Wrap with ThemeProvider */}
+        <ThemeProvider> 
             <Router>
                 <Navbar />
                 <Routes>
