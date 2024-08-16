@@ -76,7 +76,7 @@ function WorkoutPlan() {
                             ))}
                         </div>
                     ) : (
-                        <p>No workout plan available for the selected criteria.</p>
+                        <p>No workout plan available </p>
                     )}
                 </div>
             )}

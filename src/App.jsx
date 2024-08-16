@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext'; 
@@ -13,7 +12,6 @@ import LogIn from './components/Login';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import './styles/App.css';
 
-// Initialize Firebase Authentication
 const auth = getAuth();
 
 function App() {
