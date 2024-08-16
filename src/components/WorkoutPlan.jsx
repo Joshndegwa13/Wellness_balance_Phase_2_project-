@@ -12,7 +12,7 @@ function WorkoutPlan() {
         setError('');  
         try {
             console.log('Fetching data...');
-            const response = await fetch('http://localhost:3000/workoutplans');
+            const response = await fetch('https://phase-2-project-backend.vercel.app/workoutplans');
             
             if (!response.ok) {
                 throw new Error('Network response was not ok');
