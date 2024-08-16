@@ -18,7 +18,7 @@ function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
 
     useEffect(() => {
-        // Checking authentication state
+        
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             setIsAuthenticated(!!user); 
         });
