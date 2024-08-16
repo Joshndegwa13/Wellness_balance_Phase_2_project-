@@ -1,9 +1,28 @@
-# React + Vite
+## wellness_balance_project
+Wellness Balance is a personalized fitness coach web application designed to help users achieve their fitness goals by generating customized workout plans. This application allows users to enter their fitness goals and current fitness levels to receive tailored workout plans.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+Wellness Balance aims to provide users with personalized workout plans based on their fitness goals (weight loss, building muscle, endurance) and their current fitness levels (beginner, intermediate, advanced). The application ensures a user-friendly experience with a responsive design and intuitive interface.
 
-Currently, two official plugins are available:
+## Features
+1.User Input Form: Allows users to enter their fitness goals and current fitness levels.
+2.Workout Plan Generation: Generates personalized workout plans based on user input.
+3.Responsive Design: Ensures the application works seamlessly on various devices.
+4.Error Handling: Provides feedback if no workout plan is found or if there's an error fetching the data.
+5.Progress tracking : users can be able to put down their workout plan entries after a days workout
+6.Theme toggle button; users can be able to change to light and dark mode depending on preference 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Wellness_balance_Phase_2_project-
+Technologies Used
+1.HTML: For structuring the content.
+2.CSS/Bootstrap CSS: For styling and ensuring responsiveness.
+3.JavaScript and React.js: For adding interactivity and dynamic behavior.
+4.Fetch API: For fetching data asynchronously.
+5.Firebase ; for social authentication 
+
+
+Deployment.
+
+https://wellness-balance-phase-2-project.vercel.app/
+
+
+
