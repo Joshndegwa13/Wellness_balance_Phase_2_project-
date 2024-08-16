@@ -1,0 +1,97 @@
+{
+  "workoutplans": {
+    "fitnessGoals": [
+      "muscle-building",
+      "endurance",
+      "weight-loss"
+    ],
+    "fitnessLevels": [
+      "beginner",
+      "intermediate",
+      "advanced"
+    ],
+    "workoutPlans": [
+      {
+        "id": 1,
+        "goal": "muscle-building",
+        "level": "beginner",
+        "exercises": [
+          { "name": "Push-ups", "sets": 3, "reps": 10, "durationMinutes": 15, "description": "Basic push-ups to build upper body strength." },
+          { "name": "Squats", "sets": 3, "reps": 15, "durationMinutes": 20, "description": "Squats to build lower body strength." }
+        ]
+      },
+      {
+        "id": 2,
+        "goal": "muscle-building",
+        "level": "intermediate",
+        "exercises": [
+          { "name": "Bench Press", "sets": 4, "reps": 8, "durationMinutes": 25, "description": "Bench press for chest and triceps." },
+          { "name": "Deadlift", "sets": 4, "reps": 10, "durationMinutes": 30, "description": "Deadlift for overall strength." }
+        ]
+      },
+      {
+        "id": 3,
+        "goal": "muscle-building",
+        "level": "advanced",
+        "exercises": [
+          { "name": "Pull-ups", "sets": 5, "reps": 8, "durationMinutes": 30, "description": "Pull-ups for upper body strength." },
+          { "name": "Barbell Squats", "sets": 5, "reps": 8, "durationMinutes": 35, "description": "Barbell squats for lower body strength." }
+        ]
+      },
+      {
+        "id": 4,
+        "goal": "endurance",
+        "level": "beginner",
+        "exercises": [
+          { "name": "Jogging", "sets": 1, "reps": 30, "durationMinutes": 30, "description": "Light jogging for cardiovascular endurance." },
+          { "name": "Jump Rope", "sets": 3, "reps": 1, "durationMinutes": 15, "description": "Jump rope for coordination and endurance." }
+        ]
+      },
+      {
+        "id": 5,
+        "goal": "endurance",
+        "level": "intermediate",
+        "exercises": [
+          { "name": "Running", "sets": 1, "reps": 45, "durationMinutes": 45, "description": "Running for improved endurance." },
+          { "name": "Cycling", "sets": 1, "reps": 45, "durationMinutes": 45, "description": "Cycling for lower body endurance." }
+        ]
+      },
+      {
+        "id": 6,
+        "goal": "endurance",
+        "level": "advanced",
+        "exercises": [
+          { "name": "HIIT", "sets": 1, "reps": 30, "durationMinutes": 30, "description": "High-Intensity Interval Training for peak endurance." },
+          { "name": "Swimming", "sets": 1, "reps": 45, "durationMinutes": 45, "description": "Swimming for total body endurance." }
+        ]
+      },
+      {
+        "id": 7,
+        "goal": "weight-loss",
+        "level": "beginner",
+        "exercises": [
+          { "name": "Walking", "sets": 1, "reps": 30, "durationMinutes": 30, "description": "Walking for calorie burning." },
+          { "name": "Bodyweight Squats", "sets": 3, "reps": 20, "durationMinutes": 20, "description": "Bodyweight squats for lower body toning." }
+        ]
+      },
+      {
+        "id": 8,
+        "goal": "weight-loss",
+        "level": "intermediate",
+        "exercises": [
+          { "name": "Running", "sets": 1, "reps": 45, "durationMinutes": 45, "description": "Running for higher calorie burn." },
+          { "name": "Burpees", "sets": 3, "reps": 15, "durationMinutes": 20, "description": "Burpees for full-body workout." }
+        ]
+      },
+      {
+        "id": 9,
+        "goal": "weight-loss",
+        "level": "advanced",
+        "exercises": [
+          { "name": "Circuit Training", "sets": 1, "reps": 60, "durationMinutes": 60, "description": "Circuit training for intensive weight loss." },
+          { "name": "Sprints", "sets": 6, "reps": 30, "durationMinutes": 30, "description": "Sprints for advanced cardio workout." }
+        ]
+      }
+    ]
+  }
+}
