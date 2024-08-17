@@ -12,11 +12,12 @@ import LogIn from "./components/Login";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import "./styles/App.css";
 
-const auth = getAuth();
+const auth = getAuth();   //initializing firebase auth 
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+  const [isAuthenticated, setIsAuthenticated] = useState(false);  //state to track user log in status(logged in or not)   
+  
+  //useEffect to monitor authentication state changes 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setIsAuthenticated(!!user);

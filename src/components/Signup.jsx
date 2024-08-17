@@ -4,12 +4,12 @@ import { auth } from '../firebase/firebaseConfig';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
-function SignUp() {
+function SignUp() {              // State variables to manage user input and error messages
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-
+// Function to handle form submission
   const handleSignUp = async (e) => {
     e.preventDefault();
     try {

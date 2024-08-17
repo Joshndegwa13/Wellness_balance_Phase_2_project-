@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import '../styles/WorkoutPlan.css';  
 
-function WorkoutPlan() {
-    const [goal, setGoal] = useState('muscle-building');
+function WorkoutPlan() {                                 // State variables to manage user input and display
+    const [goal, setGoal] = useState('muscle-building');    
     const [level, setLevel] = useState('beginner');
     const [plan, setPlan] = useState(null);
-    const [showPlan, setShowPlan] = useState(false);
+    const [showPlan, setShowPlan] = useState(false);      
     const [error, setError] = useState('');
 
-    const fetchData = async () => {
+    const fetchData = async () => {             
+    // Function to fetch the workout plan from the API
         setError('');  
         try {
             console.log('Fetching data...');
@@ -21,7 +22,7 @@ function WorkoutPlan() {
             const data = await response.json();
             console.log('Fetched data:', data);
             
-            
+             // Filtering the data based on the selected goal and level
             const filteredPlan = data.workoutPlans.find(item => item.goal === goal && item.level === level);
             if (filteredPlan) {
                 setPlan(filteredPlan);

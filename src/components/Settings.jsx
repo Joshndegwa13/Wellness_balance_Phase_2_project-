@@ -2,7 +2,8 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import '../styles/App.css'; 
 
-function Settings() {
+function Settings() {        
+      // Use context to get the current theme and toggle function
     const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (

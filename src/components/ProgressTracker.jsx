@@ -6,6 +6,7 @@ function ProgressTracker() {
     const [details, setDetails] = useState('');
     const [entries, setEntries] = useState([]);
 
+    // Function to add a new entry to the list
     const addEntry = () => {
         if (date && details) {
             setEntries([...entries, { date, details }]);
