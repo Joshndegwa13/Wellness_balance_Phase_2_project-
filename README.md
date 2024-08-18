@@ -24,5 +24,8 @@ Deployment.
 
 https://wellness-balance-phase-2-project.vercel.app/
 
+Blog 
+
+https://joshuann.hashnode.dev/elevate-your-fitness-journey-with-wellness-balance
 
 
