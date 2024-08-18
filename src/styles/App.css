@@ -1,14 +1,14 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', /* Optimize font rendering on WebKit browsers */
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', /* Optimize font rendering on macOS */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
         sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-/* helps in making the text sharp and readerble on all screens 
+    -webkit-font-smoothing: antialiased;    /* Optimize font rendering on WebKit browsers */
+    -moz-osx-font-smoothing: grayscale;     /* Optimize font rendering on macOS */
+}                                           /* helps in making the text sharp and readerble on all screens 
 helps in maintaining text clarity in os devices */
+
 body.dark {
     background-color: #121212;
     color: white;
@@ -93,10 +93,17 @@ nav ul li a:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 .footer {
-    position: fixed; 
-    bottom: 0;
-    width: 100%;
     padding: 1rem;
     text-align: center;
     background-color: #1f2937;
@@ -114,7 +121,7 @@ nav ul li a:hover {
     color: black;
 }
 
-/*  media queries to help with Responsive Design */
+/* media queries to help with Responsive Design */
 @media (max-width: 768px) {
     .home h1 {
         font-size: 2.5rem;
